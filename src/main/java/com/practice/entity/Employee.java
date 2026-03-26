@@ -1,6 +1,5 @@
 package com.practice.entity;
 
-import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
