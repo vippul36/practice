@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Artifact') {
             steps {
-                sh './mvnw clean package -DskipTests'
+                sh 'mvn clean package -DskipTests'
             }
         }
         stage('Build Docker Image') {
