@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        jdk 'Java21' // This matches the Name you just gave it in Jenkins Tools
+    }
     stages {
         stage('Build Artifact') {
             steps {
